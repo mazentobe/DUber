@@ -41,7 +41,7 @@ class CallSuccessVC: UIViewController {
     func updateJob() {
        _ = ApiClient.getJobById(jobId: job.id)
             .do(onNext: { (job) in
-                if let driverId = job?.driverId {
+                if job?.driverId != 0 {
                     self.waiting.text = "Driver is on the way!"
                     self.timer.invalidate()
                 }

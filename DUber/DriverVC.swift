@@ -14,16 +14,33 @@ class DriverVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var jobs: [Job] = []
     
+    fileprivate let refreshControl = UIRefreshControl()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        
+        refreshControl.addTarget(self, action: #selector(refresh(_:)), for: UIControlEvents.valueChanged)
+        self.tableView.addSubview(refreshControl)
         
         _ = ApiClient.getJobs()
             .do(onNext: { (jobs) in
                 if let fetchedJobs = jobs {
                     self.jobs = fetchedJobs
                     self.tableView.reloadData()
+                }
+            }, onError: nil, onCompleted: nil, onSubscribe: nil, onDispose: nil)
+            .subscribe { _ in }
+    }
+    
+    func refresh(_ sender:AnyObject) {
+        _ = ApiClient.getJobs()
+            .do(onNext: { (jobs) in
+                if let fetchedJobs = jobs {
+                    self.jobs = fetchedJobs
+                    self.tableView.reloadData()
+                    self.refreshControl.endRefreshing()
                 }
             }, onError: nil, onCompleted: nil, onSubscribe: nil, onDispose: nil)
             .subscribe { _ in }

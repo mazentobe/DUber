@@ -91,7 +91,7 @@ class ApiClient {
         return Observable.create({ (observer) -> Disposable in
             ApiClient.getJSONWithMethodAndBody(urlToRequest: "https://community.dur.ac.uk/mohammed.m.rahman/api.php?action=returnJobById", method: .post, parameters: dict, callback: { (data) in
                 if let fetchedData = data {
-                    observer.onNext(Job.parseJobFromData(data: fetchedData))
+                    observer.onNext(Job.parseJobsFromData(data: fetchedData).first)
                 } else {
                     observer.onNext(nil)
                 }
