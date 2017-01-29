@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7448F03767071AD6F1A96BEE /* Pods_DUber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E16248430177669F98532 /* Pods_DUber.framework */; };
+		BA3CF6981E3CF65100F63B01 /* LoginFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3CF6971E3CF65100F63B01 /* LoginFormVC.swift */; };
+		BA40D9621E3CD90800057DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA40D9611E3CD90800057DE3 /* AppDelegate.swift */; };
+		BA40D9671E3CD90800057DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA40D9651E3CD90800057DE3 /* Main.storyboard */; };
+		BA40D96A1E3CD90800057DE3 /* DUber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA40D9681E3CD90800057DE3 /* DUber.xcdatamodeld */; };
+		BA40D96C1E3CD90800057DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA40D96B1E3CD90800057DE3 /* Assets.xcassets */; };
+		BA40D96F1E3CD90800057DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA40D96D1E3CD90800057DE3 /* LaunchScreen.storyboard */; };
+		BA40D9771E3CDD7800057DE3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA40D9761E3CDD7800057DE3 /* LoginVC.swift */; };
+		BA4953011E3DBF5800248E90 /* CallSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4953001E3DBF5800248E90 /* CallSuccessVC.swift */; };
+		BABD88A61E3D8EEB00809113 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD88A51E3D8EEB00809113 /* JobCell.swift */; };
+		BABD88A81E3D8F2F00809113 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABD88A71E3D8F2F00809113 /* Extensions.swift */; };
+		BAED277A1E3D087D0053AF4F /* StudentPickupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED27791E3D087D0053AF4F /* StudentPickupVC.swift */; };
+		BAED277C1E3D1B110053AF4F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED277B1E3D1B110053AF4F /* Job.swift */; };
+		BAED277E1E3D26D80053AF4F /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED277D1E3D26D80053AF4F /* Driver.swift */; };
+		BAED27801E3D29100053AF4F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED277F1E3D29100053AF4F /* Student.swift */; };
+		BAED27821E3D2F470053AF4F /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED27811E3D2F470053AF4F /* ApiClient.swift */; };
+		BAED27851E3D6A7D0053AF4F /* DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED27841E3D6A7D0053AF4F /* DriverVC.swift */; };
+		BAED27871E3D798E0053AF4F /* SingleJobVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED27861E3D798E0053AF4F /* SingleJobVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		377E16248430177669F98532 /* Pods_DUber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DUber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3CF6971E3CF65100F63B01 /* LoginFormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFormVC.swift; sourceTree = "<group>"; };
+		BA40D95E1E3CD90800057DE3 /* DUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA40D9611E3CD90800057DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA40D9661E3CD90800057DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA40D9691E3CD90800057DE3 /* DUber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DUber.xcdatamodel; sourceTree = "<group>"; };
+		BA40D96B1E3CD90800057DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA40D96E1E3CD90800057DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA40D9701E3CD90800057DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA40D9761E3CDD7800057DE3 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BA4953001E3DBF5800248E90 /* CallSuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSuccessVC.swift; sourceTree = "<group>"; };
+		BABD88A51E3D8EEB00809113 /* JobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
+		BABD88A71E3D8F2F00809113 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BAED27791E3D087D0053AF4F /* StudentPickupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentPickupVC.swift; sourceTree = "<group>"; };
+		BAED277B1E3D1B110053AF4F /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		BAED277D1E3D26D80053AF4F /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		BAED277F1E3D29100053AF4F /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		BAED27811E3D2F470053AF4F /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		BAED27831E3D5B950053AF4F /* DUber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DUber.entitlements; sourceTree = "<group>"; };
+		BAED27841E3D6A7D0053AF4F /* DriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverVC.swift; sourceTree = "<group>"; };
+		BAED27861E3D798E0053AF4F /* SingleJobVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleJobVC.swift; sourceTree = "<group>"; };
+		DE340F8E585514BA339A3FF8 /* Pods-DUber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUber.release.xcconfig"; path = "Pods/Target Support Files/Pods-DUber/Pods-DUber.release.xcconfig"; sourceTree = "<group>"; };
+		E6B607FB67EFFDA85A12E2A6 /* Pods-DUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DUber/Pods-DUber.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA40D95B1E3CD90800057DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7448F03767071AD6F1A96BEE /* Pods_DUber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6F263BA8FC10A6181C09EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B607FB67EFFDA85A12E2A6 /* Pods-DUber.debug.xcconfig */,
+				DE340F8E585514BA339A3FF8 /* Pods-DUber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA40D9551E3CD90800057DE3 = {
+			isa = PBXGroup;
+			children = (
+				BA40D9601E3CD90800057DE3 /* DUber */,
+				BA40D95F1E3CD90800057DE3 /* Products */,
+				1A6F263BA8FC10A6181C09EB /* Pods */,
+				CA16014DF1AD3D78F995C1C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA40D95F1E3CD90800057DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA40D95E1E3CD90800057DE3 /* DUber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA40D9601E3CD90800057DE3 /* DUber */ = {
+			isa = PBXGroup;
+			children = (
+				BAED27831E3D5B950053AF4F /* DUber.entitlements */,
+				BA40D9611E3CD90800057DE3 /* AppDelegate.swift */,
+				BA40D9651E3CD90800057DE3 /* Main.storyboard */,
+				BA40D96B1E3CD90800057DE3 /* Assets.xcassets */,
+				BA40D96D1E3CD90800057DE3 /* LaunchScreen.storyboard */,
+				BA40D9701E3CD90800057DE3 /* Info.plist */,
+				BA40D9681E3CD90800057DE3 /* DUber.xcdatamodeld */,
+				BA40D9761E3CDD7800057DE3 /* LoginVC.swift */,
+				BA3CF6971E3CF65100F63B01 /* LoginFormVC.swift */,
+				BAED27791E3D087D0053AF4F /* StudentPickupVC.swift */,
+				BAED277B1E3D1B110053AF4F /* Job.swift */,
+				BAED277D1E3D26D80053AF4F /* Driver.swift */,
+				BAED277F1E3D29100053AF4F /* Student.swift */,
+				BAED27811E3D2F470053AF4F /* ApiClient.swift */,
+				BAED27841E3D6A7D0053AF4F /* DriverVC.swift */,
+				BAED27861E3D798E0053AF4F /* SingleJobVC.swift */,
+				BABD88A51E3D8EEB00809113 /* JobCell.swift */,
+				BABD88A71E3D8F2F00809113 /* Extensions.swift */,
+				BA4953001E3DBF5800248E90 /* CallSuccessVC.swift */,
+			);
+			path = DUber;
+			sourceTree = "<group>";
+		};
+		CA16014DF1AD3D78F995C1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377E16248430177669F98532 /* Pods_DUber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA40D95D1E3CD90800057DE3 /* DUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA40D9731E3CD90800057DE3 /* Build configuration list for PBXNativeTarget "DUber" */;
+			buildPhases = (
+				E7BED00DFE501B89F9E9EF40 /* [CP] Check Pods Manifest.lock */,
+				BA40D95A1E3CD90800057DE3 /* Sources */,
+				BA40D95B1E3CD90800057DE3 /* Frameworks */,
+				BA40D95C1E3CD90800057DE3 /* Resources */,
+				7D6ABF6B2563DCB96AEBF32A /* [CP] Embed Pods Frameworks */,
+				920CFC22A2253D47701AE974 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DUber;
+			productName = DUber;
+			productReference = BA40D95E1E3CD90800057DE3 /* DUber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA40D9561E3CD90800057DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mazen;
+				TargetAttributes = {
+					BA40D95D1E3CD90800057DE3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 655Q6EPK26;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BA40D9591E3CD90800057DE3 /* Build configuration list for PBXProject "DUber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA40D9551E3CD90800057DE3;
+			productRefGroup = BA40D95F1E3CD90800057DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA40D95D1E3CD90800057DE3 /* DUber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA40D95C1E3CD90800057DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA40D96F1E3CD90800057DE3 /* LaunchScreen.storyboard in Resources */,
+				BA40D96C1E3CD90800057DE3 /* Assets.xcassets in Resources */,
+				BA40D9671E3CD90800057DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D6ABF6B2563DCB96AEBF32A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DUber/Pods-DUber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		920CFC22A2253D47701AE974 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DUber/Pods-DUber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BED00DFE501B89F9E9EF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA40D95A1E3CD90800057DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED27851E3D6A7D0053AF4F /* DriverVC.swift in Sources */,
+				BA40D96A1E3CD90800057DE3 /* DUber.xcdatamodeld in Sources */,
+				BAED27871E3D798E0053AF4F /* SingleJobVC.swift in Sources */,
+				BAED277C1E3D1B110053AF4F /* Job.swift in Sources */,
+				BA4953011E3DBF5800248E90 /* CallSuccessVC.swift in Sources */,
+				BAED27821E3D2F470053AF4F /* ApiClient.swift in Sources */,
+				BAED277E1E3D26D80053AF4F /* Driver.swift in Sources */,
+				BA40D9621E3CD90800057DE3 /* AppDelegate.swift in Sources */,
+				BABD88A61E3D8EEB00809113 /* JobCell.swift in Sources */,
+				BABD88A81E3D8F2F00809113 /* Extensions.swift in Sources */,
+				BA3CF6981E3CF65100F63B01 /* LoginFormVC.swift in Sources */,
+				BA40D9771E3CDD7800057DE3 /* LoginVC.swift in Sources */,
+				BAED277A1E3D087D0053AF4F /* StudentPickupVC.swift in Sources */,
+				BAED27801E3D29100053AF4F /* Student.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA40D9651E3CD90800057DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA40D9661E3CD90800057DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA40D96D1E3CD90800057DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA40D96E1E3CD90800057DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA40D9711E3CD90800057DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA40D9721E3CD90800057DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA40D9741E3CD90800057DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B607FB67EFFDA85A12E2A6 /* Pods-DUber.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DUber/DUber.entitlements;
+				DEVELOPMENT_TEAM = 655Q6EPK26;
+				INFOPLIST_FILE = DUber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dh.du.duber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA40D9751E3CD90800057DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE340F8E585514BA339A3FF8 /* Pods-DUber.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DUber/DUber.entitlements;
+				DEVELOPMENT_TEAM = 655Q6EPK26;
+				INFOPLIST_FILE = DUber/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dh.du.duber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA40D9591E3CD90800057DE3 /* Build configuration list for PBXProject "DUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA40D9711E3CD90800057DE3 /* Debug */,
+				BA40D9721E3CD90800057DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA40D9731E3CD90800057DE3 /* Build configuration list for PBXNativeTarget "DUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA40D9741E3CD90800057DE3 /* Debug */,
+				BA40D9751E3CD90800057DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA40D9681E3CD90800057DE3 /* DUber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA40D9691E3CD90800057DE3 /* DUber.xcdatamodel */,
+			);
+			currentVersion = BA40D9691E3CD90800057DE3 /* DUber.xcdatamodel */;
+			path = DUber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA40D9561E3CD90800057DE3 /* Project object */;
+}

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.3.0)
+  - JDStatusBarNotification (1.5.5)
+  - RxSwift (3.1.0)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - JDStatusBarNotification (~> 1.5)
+  - RxSwift (~> 3.1)
+  - SVProgressHUD (~> 2.1)
+  - SwiftyJSON (~> 3.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  JDStatusBarNotification: 2b4f29bd68a60d7aa2f190b5265f1ce59c18aaf8
+  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 97ccdcd236f12c0570c4a6701ecd2babe506d242
+
+COCOAPODS: 1.1.1
